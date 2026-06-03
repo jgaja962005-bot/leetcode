@@ -3,7 +3,7 @@ class Solution {
         List<String> answer = new ArrayList<>();
         
         for (int i = 1; i <= n; i++) {
-            // Check divisibility by both 3 and 5 first
+            
             if (i % 3 == 0 && i % 5 == 0) {
                 answer.add("FizzBuzz");
             } else if (i % 3 == 0) {
