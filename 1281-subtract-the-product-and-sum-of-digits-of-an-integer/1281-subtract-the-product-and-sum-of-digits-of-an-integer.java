@@ -4,10 +4,10 @@ class Solution {
         int sum = 0;
         
         while (n > 0) {
-            int digit = n % 10;  // Extract the last digit
-            product *= digit;    // Multiply the digit to product
-            sum += digit;        // Add the digit to sum
-            n /= 10;             // Remove the last digit
+            int digit = n % 10;  
+            product *= digit;    
+            sum += digit;        
+            n /= 10;            
         }
         
         return product - sum;
